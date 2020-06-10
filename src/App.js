@@ -1,10 +1,14 @@
 import React from 'react';
 
+import GlobalStyles from './styles/global';
+import Home from './pages/Home';
+
 function App() {
   return (
-    <div className="App">
-      <h1>MemeMaker</h1>
-    </div>
+    <>
+      <GlobalStyles />
+      <Home />
+    </>
   );
 }
 
